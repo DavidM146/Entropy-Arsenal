@@ -289,7 +289,7 @@ plt.show()
 # store it in the final dataframe alongside the performance variables to run correlatiion against
 qual_pitchers_1000 = (pitch_count[pitch_count['total_pitches'] >= 1000]['player_name'].tolist())
 ## import dataframe with stats [using K%, xwOBA, FIP, HR/9, BB%, wOBA, and xSLG]
-stats_file_dir = 'stats-2025.csv'
+stats_file_dir = 'data/2025_performance_data.csv'
 final_df = pd.read_csv(stats_file_dir)
 fip_constant_2025 = 3.135
 HR = final_df['hr']
