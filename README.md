@@ -24,21 +24,21 @@ Data are from the 2025 MLB regular season along with the post-season and are obt
 
 Install the required packages with:
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
 ## Usage
 
 After installing the required packages, run the analysis with:
 
-'''bash
-python arsenal.py
-'''
+```bash
+python code/entropy-arsenal.py
+```
 
 ## Results
 
-Preliminary analysis suggested that Entropy/Arsenal holds a positive, linear relationship to pitching performance
+Preliminary analysis suggested that Entropy/Arsenal has a positive linear relationship to pitching performance
 
 ### Entropy
 
@@ -60,7 +60,7 @@ This project is currently exploratory. Initial analysis has been conducted using
 
 Future work could include, but are not limited to:
 1) Expand the metric to include additional characteristics such as velocity, release position, and/or vertical approach angle (VAA).
-2) Conduct a multi-season analysis to year-to-year stability of Entropy/Arsenal.
-3) Apply entropy on a pitch-type basis to evaluating a pitcher's ability to repeat the shape of an individual pitch within their repertoire.
+2) Conduct a multi-season analysis to evaluate the year-to-year stability of Entropy/Arsenal.
+3) Apply entropy on a pitch-type basis to evaluate a pitcher's ability to repeat the shape of an individual pitch within their repertoire.
 4) Evaluate potential differences in Entropy/Arsenal between starting and relief pitchers.
 5) Investigate the relationship between Entropy/Arsenal and a starting pitcher's ability to face a batting order multiple times within an appearance.
